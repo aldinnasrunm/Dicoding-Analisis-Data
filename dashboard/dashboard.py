@@ -5,7 +5,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
 
-df_grouping = pd.read_csv('main_data.csv')
+df_grouping = pd.read_csv('https://github.com/aldinnasrunm/Dicoding-Analisis-Data/blob/main/dashboard/main_data.csv')
 df_grouping['date'] = pd.to_datetime(df_grouping['date'])
 min_date = df_grouping['date'].min()
 max_date = df_grouping['date'].max()
