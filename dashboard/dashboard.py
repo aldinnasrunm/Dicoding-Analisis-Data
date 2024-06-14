@@ -11,7 +11,7 @@ min_date = df_grouping['date'].min()
 max_date = df_grouping['date'].max()
 
 with st.sidebar:
-  st.image("https://cdn4.iconfinder.com/data/icons/the-weather-is-nice-today/64/weather_39-512.png")
+  st.image("https://cdn2.iconfinder.com/data/icons/weather-flat-14/64/weather02-512.png")
 
   start_date, end_date = st.date_input(
       label='Rentang Waktu', min_value=min_date,
